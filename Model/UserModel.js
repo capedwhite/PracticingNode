@@ -7,7 +7,6 @@ import { sequelize } from "../Database/db.js";
     type: DataTypes.INTEGER,
     primaryKey:true,
     autoIncrement:true,
-
     },
     customerName:{
         type: DataTypes.STRING,
